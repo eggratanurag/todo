@@ -1,0 +1,45 @@
+<%- include('header'); -%>
+
+<body>
+    <div class="darkPurple">
+    </div>
+
+    <div class="container-fluid h1div">
+    	<h2> <%= kindOfDay %> </h2>
+    </div>
+
+    <div class="container-fluid text">
+    <h1>you give us your time we will manage it.</h1>
+    </div>
+
+	<form action="/" method="post">
+		<input type="text" class="form-control addInput" aria-describedby="emailHelp" name="newItem" placeholder="work, food, bath" autocomplete="off">
+        <button type="submit" class="btn btn-primary addButton" name="buttoniya" value=<%= kindOfDay %>><span>+</span></button>
+	</form>
+        
+    <div class="listDiv">
+     <% for (var i=0; i<newListItem.length; i++) { %>
+	   <div class="singleDiv">
+        <label class="list-group-item d-flex gap-2 singleLabel">
+        <input class="form-check-input flex-shrink-0 checkbox" type="checkbox" value="" >
+          <p class="newListItem"> <%= newListItem[i] %> </p>
+        </label>
+       </div>
+     <% } %>
+    </div>
+
+    <div class="footerDiv">
+    <button class="btn btn-outline-light footerButtons" value="m" >work</button>
+    <button class="btn btn-outline-light footerButtons" value="k" >study</button>
+    <button class="btn btn-outline-light footerButtons" value="m" >lifestyle</button>
+    <div class="hopOnDiv">
+    <h1 class="hopOn">you can always hop on to your fav pages</h1>
+    </div>
+    </div>
+
+
+
+</body>
+
+<%- include('footer'); -%>
+

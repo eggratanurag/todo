@@ -1,0 +1,193 @@
+body {
+	text-align: center;
+	background-color: #e3e4fb;
+	font-family: 'Montserrat', sans-serif;
+}
+h2 {
+	color: white;
+}
+
+h1 {
+	color: #9a6ddc;
+	font-weight: 900;
+  font-size: 5rem;
+}
+
+input:checked+p {
+	text-decoration: line-through;
+	text-decoration-color: #9a6ddc;
+}
+
+/*classes*/
+
+.text {
+	width: 30%;
+	position: absolute;
+	left: 65%;
+	top: 28%;
+}
+
+.newListItem {
+	color: #393232;
+
+}
+
+.h1div {
+	background-color: #9a6ddc;
+	padding: auto;
+	margin: 3rem auto 3rem;
+	width: 450px;
+	height: auto;
+	border-radius: 4px;
+	display: inline-block;
+	box-shadow: 5px 5px 40px -15px #444941;
+
+}
+
+.darkPurple {
+	background-color: #9a6ddc;
+	width: 200rem;
+	height: 60rem;
+	border-radius: 40rem;
+	position: absolute;
+	transform: rotate(30deg);
+	right: 52rem;
+	top: 8rem;
+}
+
+.hopOn {
+	color: white;
+}
+
+.hopOnDiv {
+	margin-top: 8rem;
+}
+
+.copyright {
+	color: white;
+}
+
+.social-icon {
+	color: white;
+	margin: 10px 10px 10px;
+}
+
+.darkPurpleFooter {
+	background-color: #9a6ddc;
+	width: 50rem;
+	height: 50rem;
+	border-radius: 40rem;
+	position: absolute;
+	top: 150%;
+	left: 65rem;
+	padding-top: 330;
+}
+
+.btn-primary {
+	background-color: #9a6ddc;
+	border-color: #9a6ddc;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #b498dc;
+    border-color: #b498dc;
+}
+
+.addInput {
+	box-shadow: 5px 5px 40px -15px #444941;
+	width: 259px;
+	height: 50px;
+	display: inline-block;
+}
+
+.addButton {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	box-shadow: 5px 5px 40px -15px #444941;
+}
+.singleDiv {
+	margin-top: -3px;
+	box-shadow: 5px 5px 40px -15px #444941;
+}
+
+.singlelabel {
+	padding: 6 6 0;
+}
+
+.listDiv {
+
+	margin: 1px 800px 1px;
+}
+
+.footerButtons {
+	width: 200px;
+	position: ;
+	margin: 5px 5px 5px;
+}
+
+.footerDiv {
+	width: 45rem ;
+	position: absolute;
+	top: 57rem;
+	left: 2rem;
+}
+
+.contactme {
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/*<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <div class="input-group-text">
+      <input type="checkbox" aria-label="Checkbox for following text input">
+    </div>
+  </div>
+  <input type="text" class="form-control" aria-label="Text input with checkbox">
+</div>*/
+
+ /*//<ul class="list-group unorderedList">
+//                <li class="list-group-item"><%= newListItem[i] %></li>
+//             </ul>*/
+
+/*<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Default checkbox
+  </label>*/
+
+  /*//       <div class="conatiner-fluid listDiv">
+  // // //       <% for (var i=0; i<newListItem.length; i++) { %>
+	
+		// // // 	   <div class="form-check">
+              
+  // // //                    <ul class="list-group unorderedList">
+  // // //                      <label class="form-check-label" for="flexCheckDefault">
+                      
+  // // //                        <li class="list-group-item">
+                         
+  // // //                          <span><%= newListItem[i] %></span> 
+  // // //                          <input class="form-check-input checkboxx" type="checkbox" value="" id="flexCheckDefault">
+  // // //                        </li>
+  // // //                      </label>
+  // // //                    </ul>
+                    
+  // // //              </div>
+             
+			 
+		// // // <% } %>
+
+  // // //       </div>*/
