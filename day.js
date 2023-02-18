@@ -4,8 +4,6 @@ function myday() {
 	var today = new Date();
 
 	var options = {
-		day: 'numeric',
-		month: 'long',
 		weekday: 'long',
 	}
 

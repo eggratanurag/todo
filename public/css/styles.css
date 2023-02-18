@@ -1,69 +1,43 @@
 body {
 	text-align: center;
-	background-color: #e3e4fb;
+	background-color: #F7F7F7;
 	font-family: 'Montserrat', sans-serif;
-}
-h2 {
-	color: white;
-}
-
-h1 {
-	color: #9a6ddc;
-	font-weight: 900;
-  font-size: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 input:checked+p {
 	text-decoration: line-through;
-	text-decoration-color: #9a6ddc;
+	text-decoration-color: #53516d;
+}
+
+form {
+	margin-bottom: -1;
 }
 
 /*classes*/
 
-.text {
-	width: 30%;
-	position: absolute;
-	left: 65%;
-	top: 28%;
-}
-
 .newListItem {
-	color: #393232;
+	color: #4D4545;
 
 }
 
 .h1div {
-	background-color: #9a6ddc;
-	padding: auto;
-	margin: 3rem auto 3rem;
-	width: 450px;
-	height: auto;
+	background-color: #53516d;
+	padding-top: 10px;
+	margin: 3rem 3rem 3rem;
+	width: 90vw;;
+	height: 60px;
 	border-radius: 4px;
 	display: inline-block;
-	box-shadow: 5px 5px 40px -15px #444941;
+	box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 
 }
 
-.darkPurple {
-	background-color: #9a6ddc;
-	width: 200rem;
-	height: 60rem;
-	border-radius: 40rem;
-	position: absolute;
-	transform: rotate(30deg);
-	right: 52rem;
-	top: 8rem;
-}
 
-.hopOn {
-	color: white;
-}
-
-.hopOnDiv {
-	margin-top: 8rem;
-}
-
-.copyright {
+.hopOn, .copyright, .footer-link, .contactme, h2 {
 	color: white;
 }
 
@@ -72,122 +46,268 @@ input:checked+p {
 	margin: 10px 10px 10px;
 }
 
-.darkPurpleFooter {
-	background-color: #9a6ddc;
-	width: 50rem;
-	height: 50rem;
-	border-radius: 40rem;
+.text {
+	width: 30%;
 	position: absolute;
-	top: 150%;
-	left: 65rem;
-	padding-top: 330;
-}
-
-.btn-primary {
-	background-color: #9a6ddc;
-	border-color: #9a6ddc;
-}
-
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:visited,
-.btn-primary:focus {
-    background-color: #b498dc;
-    border-color: #b498dc;
+	left: 68%;
+	top: 15%;
+	visibility: hidden;
 }
 
 .addInput {
-	box-shadow: 5px 5px 40px -15px #444941;
-	width: 259px;
-	height: 50px;
-	display: inline-block;
+	border-color: white;
+	box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+	width: 90vw;
+	height: 60px;
+	margin: auto auto auto;
+	border-radius: 3px 3px 0 0;
+
 }
 
 .addButton {
 	border-radius: 50%;
-	height: 40px;
-	width: 40px;
-	display: inline-block;
-	box-shadow: 5px 5px 40px -15px #444941;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right: 90px;
+	font-size: 1rem;
+	background-color: #53516d;
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	
 }
-.singleDiv {
-	margin-top: -3px;
-	box-shadow: 5px 5px 40px -15px #444941;
+.createButton {
+	border-radius: 30px !important;
+	height: 50px;
+	width: 80px;
+	position: absolute;
+	right: 5px;
+	font-size: 1rem;
+	background-color: #53516d;
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+
 }
+.addButton:hover {
+    background-color: #353345 !important;
+    box-shadow: 0px 10px 15px #353345;
+    color: #fff;
+    transform: translateY(-4px);
+  }
+.createButton:hover {
+    background-color: #353345 !important;
+    box-shadow: 0px 10px 15px #353345;
+    color: #fff;
+    transform: translateY(-4px);
+  }
+
 
 .singlelabel {
-	padding: 6 6 0;
+	border-color: white;
+	padding-top: 16;
+	max-width: 90vw;;
+	height: auto;
+	margin: auto auto auto;
+	box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+	border-radius: 0 0 3px 3px;
+	margin-bottom: -2.2px;
+	
+	
 }
-
-.listDiv {
-
-	margin: 1px 800px 1px;
+.inputForm {
+	height: 60px;
+	position: relative;
 }
 
 .footerButtons {
-	width: 200px;
-	position: ;
+	width: 150px;
 	margin: 5px 5px 5px;
 }
-
-.footerDiv {
-	width: 45rem ;
-	position: absolute;
-	top: 57rem;
-	left: 2rem;
+.divForToDos {
+	z-index: 10;
 }
 
-.contactme {
-	color: white;
+.divForButtons {
+	width: 40rem;
 }
 
-
-
-
-
-
-
-
-
-
-/*<div class="input-group mb-3">
-  <div class="input-group-prepend">
-    <div class="input-group-text">
-      <input type="checkbox" aria-label="Checkbox for following text input">
-    </div>
-  </div>
-  <input type="text" class="form-control" aria-label="Text input with checkbox">
-</div>*/
-
- /*//<ul class="list-group unorderedList">
-//                <li class="list-group-item"><%= newListItem[i] %></li>
-//             </ul>*/
-
-/*<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-    Default checkbox
-  </label>*/
-
-  /*//       <div class="conatiner-fluid listDiv">
-  // // //       <% for (var i=0; i<newListItem.length; i++) { %>
+.upperdiv {
+	background-color: #53516d;
+	width: 80vw;
+	height: 80vw;
+	border-radius: 50%;
 	
-		// // // 	   <div class="form-check">
-              
-  // // //                    <ul class="list-group unorderedList">
-  // // //                      <label class="form-check-label" for="flexCheckDefault">
-                      
-  // // //                        <li class="list-group-item">
-                         
-  // // //                          <span><%= newListItem[i] %></span> 
-  // // //                          <input class="form-check-input checkboxx" type="checkbox" value="" id="flexCheckDefault">
-  // // //                        </li>
-  // // //                      </label>
-  // // //                    </ul>
-                    
-  // // //              </div>
-             
-			 
-		// // // <% } %>
+	position: relative;
+	top: 5rem;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
 
-  // // //       </div>*/
+.darkPurpleFooter {
+	background-color: #53516d;
+	width: 60vw;
+	height: 60vw;
+	border-radius: 50%;
+	position: relative;
+	top: 10rem;
+	z-index: -10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+h1 {
+	color: #53516d;
+	font-weight: 300;
+  font-size: 1rem;
+}
+@media only screen and (min-width: 600px) {
+	/* For tablets: */
+	.addInput {
+		width: 90vw;
+	}
+	.singlelabel {
+		max-width: 90vw;;
+	}
+	.h1div {
+		width: 90vw;
+	}
+    
+	.divForButtons {
+		max-width:30vw;
+	}
+	
+	.upperdiv {
+		width: 60vw;
+		height: 60vw;
+		padding: 300px;
+		
+	}
+
+	.darkPurpleFooter {
+		width: 40vw;
+		height: 40vw;
+		
+	}
+  
+  }
+
+  
+  @media only screen and (min-width: 900px) {
+	/* For tablets: */
+
+	.addInput {
+		width: 50vw;
+	}
+	.singlelabel {
+		max-width: 50vw;;
+	}
+	.h1div {
+		width: 50vw;
+	}
+	
+	h1 {
+		color: #9a6ddc;
+		font-weight: 500;
+	  font-size: 2rem;
+	}
+
+	.divForButtons {
+		max-width:60vw;
+		
+	}
+	
+	.upperdiv {
+		width: 50vw;
+		height: 50vw;
+		position: absolute;
+		top: 10rem;
+		left: -10rem;
+		
+	}
+	
+	.darkPurpleFooter {
+		position: absolute;
+		top: 45rem;
+		right: -5rem;
+		
+	}
+
+  }
+  @media only screen and (min-width: 1250px) {
+	h1 {
+		color: #9a6ddc;
+		font-weight: 700;
+	  font-size: 3rem;
+	}
+	.addInput {
+		width: 40vw;
+	}
+	.singlelabel {
+		max-width: 40vw;;
+	}
+	.h1div {
+		width: 40vw;
+	}
+	
+  }
+  
+  @media only screen and (min-width: 1520px) {
+	/* For desktop: */
+	.text {
+		visibility: visible;
+	}
+	.addInput {
+		width: 30vw;
+	}
+	.singlelabel {
+		max-width: 30vw;;
+	}
+	.h1div {
+		width: 30vw;
+	}
+
+	h1 {
+		color: #53516d;
+		font-weight: 900;
+	  font-size: 5rem;
+	}
+
+	.divForButtons {
+		max-width:30vw;
+		z-index: 100;
+		
+	}
+	
+	.upperdiv {
+		width: 60vw;
+		height: 60vw;
+		position: absolute;
+		top: 5rem;
+		left: -15rem;
+	}
+
+	.darkPurpleFooter {
+		position: absolute;
+		top: 45rem;
+		right: -3rem;
+	}
+
+  }
+ 
+
+
+
+
+
+
+
